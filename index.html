@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lab 2 to learn HTML">
+    <meta name="author" content="Sia Sheth">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lab 2</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+  <body>
+    <header>
+        <div>MEETING NOTES</div>
+        <nav>
+          <ul>
+            <li><a href="#attendance-list">Attendance List</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#unfinished-business">Unfinished Business</a></li>
+            <li><a href="#recordings">Recordings</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>6th October's Meeting Notes</h1>
+        <img
+          src="https://images.unsplash.com/photo-1568992688065-536aad8a12f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
+          alt="meeting-room"
+          width="250"
+        />
+        <h2 id="successful">Today's meeting was very successful!</h2>
+    </main>
+    <section>
+        <h3 id="shoutout">Good job to everyone - especially Powell</h3>
+        <p>
+            Hope everyone has had a great week and continue doing so. This is a section for the meeting notes.
+        </p>
+    </section>
+    <div class="attendance">
+        <h4 id="attended">Attendance:</h4>
+        <ul>
+            <li>Sia</li>
+            <li>Powell</li>
+            <li>Viva</li>
+        </ul>
+        <p>It is important that <span><b>everyone</b></span> attends these meetings, please!</p>
+        <hr>
+        <p><strong>Party info:</strong> are having a party next week! <em>Everyone</em> please bring:</p>
+        <ol>
+            <li>Food</li>
+            <li>Drinks</li>
+        </ol>
+        <p><i>Thank you for reading!</i></p>
+        <p>The address is:<br>
+            9500 Gilman Drive<br>
+            UCSD!<br>
+        </p>
+    </div>
+
+    <div class="multimedia">
+        <img src="/images/photo-1513542789411-b6a5d4f31634.jpeg" alt="Pencils" width="500" height="300">
+        <hr>
+        <audio controls>
+            <source src="/images/lofi-study-112191.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+        <hr>
+        <video width="320" height="240" controls>
+            <source src="/images/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <details>
+        <summary>This is the summary of the details</summary>
+        <p>These are the actual details. Peek-a-boo!</p>
+    </details>
+
+    <hr>
+
+    <form>
+        <fieldset>
+            <label for="thoughts">Meeting thoughts:</label>
+            <input type="text" id="thoughts" name="thoughts"><br><br>
+            <label for="fname">Full name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <textarea id="textarea" name="textarea" rows="4" cols="50">
+        This is an adjustable textarea. 
+    </textarea>
+
+    <hr>
+
+    <label for="name">Choose your favourite member:</label>
+    <input list="names" name="name" id="name">
+
+    <datalist id="names">
+        <option value="Sia">
+        <option value="Powell">
+        <option value="Viva">
+    </datalist>
+
+    <hr>
+
+    <p>Sorry, missed that - who was it again?</p>
+    <label for="nameagain">Choose a member:</label>
+
+    <select name="nameagain" id="nameagain">
+        <option value="Sia">Sia</option>
+        <option value="Powell">Powell</option>
+        <option value="Viva">Viva</option>
+    </select>
+
+    <button type="button">Submit!</button>
+
+    <footer>
+        
+    </footer>
+  </body>
+</html>
