@@ -5,17 +5,45 @@ body {
     background-color: yellowgreen;
 }
 
+a[class~="attendance"] {
+    padding: 2px;
+  }
+
+#nameagain {
+    border: 2px 1px solid rebeccapurple;
+}
+
 main.container {
     display: flex;
     flex-direction: row;
 }
 
-main h1 {
+ul li {
+    list-style-type: square;
+}
+
+p.attendace {
+    border: 20px 10px solid black;
+}
+
+li:first-of-type + li {
+    color: pink;
+}
+
+* {
+    border: 20px 10px solid black;
+}
+
+p ~ span {
+    background-color: aliceblue;
+}
+
+main > h1 {
     flex-basis: auto;
     flex: none;
 }
 
-main h2 {
+main > h2 {
     flex-basis: auto;
     flex: none;
 }
@@ -88,7 +116,7 @@ h2 {
     display: inline;
 }
 
-img {
+img, h4 {
     max-width: 200pt;
     min-width: 2pt;
     position: static;
