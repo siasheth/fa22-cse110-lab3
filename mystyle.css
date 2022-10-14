@@ -1,0 +1,103 @@
+/* Hi! This is my CSS stylesheet */
+
+/* Styling the body */
+body {
+    background-color: yellowgreen;
+}
+
+main.container {
+    display: flex;
+    flex-direction: row;
+}
+
+main h1 {
+    flex-basis: auto;
+    flex: none;
+}
+
+main h2 {
+    flex-basis: auto;
+    flex: none;
+}
+
+.multimedia {
+    display: grid;
+    grid-template-columns: 400px 500px auto 500px 40px;
+    grid-template-rows: 25% 100px auto;
+}
+
+.multimedia h1 {
+    grid-column-start: auto;
+}
+
+h2.item {
+    order: 2;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 1550px) {
+    /* This is a media query */
+}
+
+@font-face {
+    font-family: 'roboto-black';
+    src: url(Roboto/Roboto-Black.ttf);
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: semi-expanded;
+}
+
+/* Styling all headings of size h1 */
+h1 {
+    color: #123312;
+    font-family: 'roboto-black';
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 2px;
+    border-width: 1ch;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+p {
+    width: 10in;
+    border: 2px 1px solid rebeccapurple;
+    padding: .5em .5em .5em .5em;
+    margin: 10px 10px 10px 10px;
+    display: block;
+}
+
+form.container {
+    display: grid;
+}
+
+h2 {
+    border-width: 100lh;
+    size: 10em;
+    height: 100vw;
+    margin: auto;
+    text-decoration: dotted;
+    text-align: center;
+    position: sticky;
+    display: inline;
+}
+
+img {
+    max-width: 200pt;
+    min-width: 2pt;
+    position: static;
+}
+
+button:hover {
+    color: wheat;
+}
+
+button:active {
+    color: saddlebrown;
+}
